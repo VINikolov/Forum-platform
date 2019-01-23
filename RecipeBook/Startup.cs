@@ -35,6 +35,7 @@ namespace RecipeBook.Api
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseAuthentication();
         }
     }
 }
