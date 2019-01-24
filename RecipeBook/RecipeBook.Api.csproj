@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RecipeBook.ApiDto\RecipeBook.ApiDto.csproj" />
+    <ProjectReference Include="..\RecipeBook.Common\RecipeBook.Common.csproj" />
+    <ProjectReference Include="..\RecipeBook.Services\RecipeBook.Services.csproj" />
   </ItemGroup>
 
 </Project>
